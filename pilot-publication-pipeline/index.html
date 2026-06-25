@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>BIH · Publication Pipeline V2 — Piloto</title>
+<style>
+  :root{ --bg:#0b0e14; --card:#141925; --txt:#e8edf6; --txt2:#9aa6bd; --gold:#d8b25a; --gold-l:#f0d590; --ok:#3ecf8e; --line:#222a39; }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--txt);
+       min-height:100vh;display:flex;align-items:center;justify-content:center;padding:32px;line-height:1.5}
+  .wrap{max-width:680px;width:100%}
+  .badge{display:inline-block;font-size:12px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);
+         border:1px solid var(--gold);border-radius:999px;padding:5px 14px;margin-bottom:20px}
+  h1{font-size:34px;font-weight:800;letter-spacing:-.5px;line-height:1.15;margin-bottom:8px}
+  h1 .g{background:linear-gradient(135deg,var(--gold),var(--gold-l));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .sub{color:var(--txt2);font-size:16px;margin-bottom:28px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px;margin-bottom:16px}
+  .row{display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--line);font-size:15px}
+  .row:last-child{border-bottom:none}
+  .row .k{color:var(--txt2)}
+  .row .v{font-weight:600}
+  .ok{color:var(--ok)}
+  .gates{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:6px}
+  .gate{background:#0e1320;border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-size:14px}
+  .gate b{display:block;color:var(--gold);font-size:12px;letter-spacing:1px;margin-bottom:3px}
+  .foot{color:var(--txt2);font-size:13px;text-align:center;margin-top:22px}
+  .id{font-family:ui-monospace,"Cascadia Code",Consolas,monospace;font-size:13px;color:var(--gold-l)}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <span class="badge">Bigdata Intelligence Hub</span>
+    <h1>Publication Pipeline V2 — <span class="g">Piloto</span></h1>
+    <p class="sub">Página neutra de validação do ambiente oficial de publicação (Modelo A · BOS-086). Confirma a mecânica fim-a-fim sem expor material sensível.</p>
+
+    <div class="card">
+      <div class="row"><span class="k">Ambiente oficial</span><span class="v">BIH_Publications · GitHub Pages</span></div>
+      <div class="row"><span class="k">Governança</span><span class="v">BOS-086 V2 · DECISAO_HQ_PUBLICATION_002</span></div>
+      <div class="row"><span class="k">Formato</span><span class="v">STANDALONE single-file · zero dependência externa</span></div>
+      <div class="row"><span class="k">Slug</span><span class="v id">pilot-publication-pipeline</span></div>
+      <div class="row"><span class="k">Pilot ID</span><span class="v id">PILOT-PUBV2-20260625-A1</span></div>
+    </div>
+
+    <div class="card">
+      <div style="font-size:13px;letter-spacing:1px;color:var(--txt2);text-transform:uppercase;margin-bottom:4px">Gate G3</div>
+      <div class="gates">
+        <div class="gate"><b>P1 · Publicação</b>BIH_Publications/&lt;slug&gt;/index.html</div>
+        <div class="gate"><b>P2 · HTTP 200</b>URL oficial responde 200</div>
+        <div class="gate"><b>P3 · Local</b>Abre por duplo-clique</div>
+        <div class="gate"><b>P4 · Cross-browser</b>Chrome/Edge + mobile</div>
+        <div class="gate"><b>P5 · Standalone</b>Arquivo único, sem CDN</div>
+        <div class="gate"><b>HOMOLOGADO</b>URL confere com o aprovado</div>
+      </div>
+    </div>
+
+    <p class="foot">Se você está vendo esta página pela URL oficial, a publicação está <span class="ok">no ar</span>.<br>
+    Bigdata Intelligence Hub · Piloto de pipeline · 2026-06-25 · uso interno (noindex)</p>
+  </div>
+</body>
+</html>
