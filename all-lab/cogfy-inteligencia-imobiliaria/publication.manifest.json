@@ -1,0 +1,22 @@
+﻿{
+    "artifact_id":  "ALL_LAB_COGFY_PRESENTATION",
+    "entity":  "ALL_LAB",
+    "project_or_subject":  "all-lab/cogfy-inteligencia-imobiliaria",
+    "version":  "v1",
+    "status":  "PUBLISHED",
+    "approved_by":  "Andre Dorsch",
+    "approved_at":  "2026-07-04",
+    "published_at":  "2026-07-07",
+    "public_url":  "https://dorschandre.github.io/BIH_Publications/all-lab/cogfy-inteligencia-imobiliaria/",
+    "version_url":  "https://dorschandre.github.io/BIH_Publications/all-lab/cogfy-inteligencia-imobiliaria/v1/",
+    "previous_version":  "",
+    "supersedes":  "",
+    "validation":  {
+                       "gate_g3":  "PENDING",
+                       "responsive":  "PENDING",
+                       "link_preview":  "PENDING"
+                   },
+    "rollback_available":  false,
+    "origin_source_hash":  "8729320dc370cba0c59758b585da6df41ea6528a02a7f8a0d3386d48ce6d4488",
+    "release_hash":  "6a64fd5b62515a6acc843101d79f2df89a2ba28040d44e968d4faf9738c36d31"
+}
