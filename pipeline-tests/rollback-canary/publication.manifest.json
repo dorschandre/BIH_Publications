@@ -2,21 +2,21 @@
     "artifact_id":  "ROLLBACK_CANARY_TEST_ARTIFACT",
     "entity":  "BIH",
     "project_or_subject":  "pipeline-tests/rollback-canary",
-    "version":  "v1",
+    "version":  "v2",
     "status":  "PUBLISHED",
     "approved_by":  "Andre Dorsch",
     "approved_at":  "2026-07-07",
     "published_at":  "2026-07-07",
     "public_url":  "https://dorschandre.github.io/BIH_Publications/pipeline-tests/rollback-canary/",
-    "version_url":  "https://dorschandre.github.io/BIH_Publications/pipeline-tests/rollback-canary/v1/",
-    "previous_version":  "",
+    "version_url":  "https://dorschandre.github.io/BIH_Publications/pipeline-tests/rollback-canary/v2/",
+    "previous_version":  "v1",
     "supersedes":  "",
     "validation":  {
                        "gate_g3":  "PENDING",
                        "responsive":  "PENDING",
                        "link_preview":  "PENDING"
                    },
-    "rollback_available":  false,
-    "origin_source_hash":  "3e34700e91b65dcc5955ed31f7a402958b6dd45a9b7484c80f3beb90d9c1287c",
-    "release_hash":  "1404e8396715b019ffeda99956ea51bca7061b69b032e7c89aec2738439427fd"
+    "rollback_available":  true,
+    "origin_source_hash":  "9c91a3ef1100d247c6fa0f43277e65313858e828d0c107642a4e2539f26f2d76",
+    "release_hash":  "20dfc6397ae03888bfb5f3e5f046b7d3b6952526c52b6ef4f95cfa0d6b6b2901"
 }
